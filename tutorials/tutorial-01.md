@@ -277,7 +277,7 @@ piesp <- piesp %>%
          tipo = `Tipo Investimento`)
 ```
 
-Usando o operador %>%, denominado _pipe_, retiramos de dentro da função _rename_ o banco de dados cujas variáveis serão renomeadas. As quebras de linha depois do %>% e dentro da função _rename_ são opcionais. Porém, o pardão é 'verticalizar o código' e colcar os 'verbos' à esquerda, o que torna sua leitura mais confortável.
+Usando o operador %>%, denominado _pipe_, retiramos de dentro da função _rename_ o banco de dados cujas variáveis serão renomeadas. As quebras de linha depois do %>% e dentro da função _rename_ são opcionais. Porém, o padrão é 'verticalizar o código' e colocar os 'verbos' à esquerda, o que torna sua leitura mais confortável.
 
 Compare com o código que havíamos executado anteriormente:
   
